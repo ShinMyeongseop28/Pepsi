@@ -5,7 +5,7 @@
     align-items: center; /* 아이템-정렬: (교차축) 가운데 */
     height: 350px;
 }
-img {
+.logo img {
     width: 100px;
     height: 110px;
 }
@@ -15,11 +15,50 @@ img {
     background-color: #005891;
     color: white;
     font-size: 14px;
-    justify-content: center; /* 컨텐츠-정렬: (주축) 가운데 */
-    align-items: center; /* 아이템-정렬: (교차축) 가운데 */
+    justify-content: center; 
+    align-items: center;
     height: 60px;
 }
-
+.promotion {
+    height: 550px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.player h1 {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase; /* 텍스트-변형: 대문자 */
+    font-weight: bolder; /* 글꼴-두께: (더)두껍게 */
+}
+.player p {
+    text-align: center;
+    color: #555555;
+    font-size: 16px;
+}
+.cover_img {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 350px;
+}
+.sns {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* 1rem=16px */
+}
+.cs {
+    margin: 30px;
+}
+.cs h2, .cs p {
+    text-align: center;
+    font-size: 15px;
+    color: #005891;
+}
+.address {
+    text-align: center;
+    font-size: 13px;
+}
 /* 선택자 문법
 선택자 {
     속성: 값;
@@ -28,7 +67,7 @@ img {
  2. 선택자 종류
  - 전체 선택자 : *
  - 태그 선택자 : p
- - 클래스 선택자 : .item
- - 아이디 선택자 : #box
- - 그룹 선택자 : p, .item, #box
+ - 클래스 선택자 : .item         [.]
+ - 아이디 선택자 : #box          [#]
+ - 그룹 선택자 : p, .item, #box  [,]
 */
